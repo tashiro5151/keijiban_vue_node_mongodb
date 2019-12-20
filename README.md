@@ -36,7 +36,7 @@ SERVER_IP   →　サーバのIP
 NGINX_PORT  →  フロントエンドサーバのポート番号 (お好きな番号を選んでください)
 BACKEND_PORT →  バックエンドサーバのポート番号 (お好きな番号を選んでください)
 
-# react・バックエンドnodejsをビルド
+# vue・バックエンドnodejsをビルド
 sudo docker-compose -f docker-compose.build.yml up
 sudo docker-compose -f docker-compose.build.yml down -v
 

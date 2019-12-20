@@ -1,0 +1,35 @@
+{
+  "name": "f_vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --out-dir public",
+    "build": "npm run build0 && npm run build1 && npm run build2",
+    "build0": "parcel build ./src/index.ts --public-url ./ -d dist --no-source-maps",
+    "build1": "parcel build ./src/css/style.css --public-url ./ -d dist --no-source-maps",
+    "build2": "parcel build ./src/css/simple-sidebar.css --public-url ./ -d dist --no-source-maps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "cssnano": "^4.1.10",
+    "@babel/core": "^7.7.5",
+    "@types/node": "^12.12.17",
+    "@vue/component-compiler-utils": "^3.1.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "typescript": "^3.7.3",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.1.0",
+    "moment": "^2.24.0",
+    "react-string-replace": "^0.4.4",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-router": "^3.1.3"
+  }
+}

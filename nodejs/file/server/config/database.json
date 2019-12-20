@@ -1,0 +1,6 @@
+{
+  "mongodb": {
+    "development": "mongodb://192.168.0.200:27016/mongodb",
+    "production": "mongodb://mongodb:27017/keijiban"
+  }
+}

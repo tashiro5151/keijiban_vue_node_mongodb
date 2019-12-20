@@ -1,0 +1,7 @@
+https://codeday.me/jp/qa/20190517/844558.html
+
+vuex
+https://qiita.com/okumurakengo/items/0521049e79f927632cab
+
+propsで親コンポーネント内から子コンポーネントへ値やデータを渡す
+https://designsupply-web.com/knowledgeside/4778/

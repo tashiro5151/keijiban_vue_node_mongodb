@@ -3,7 +3,7 @@
 # このリポジトリは何？
 
 掲示板のソースです。<br />
-vue node mongodbバージョン <br />
+vue nodejs mongodbバージョン <br />
 シングルページアプリケーション(SPA)です。
 
 # 開発環境
